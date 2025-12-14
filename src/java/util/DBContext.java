@@ -12,7 +12,7 @@ import java.util.logging.Logger;
  */
 /**
  *
- * @author FPT University - PRJ30X
+ * @author 
  */
 public class DBContext {
 
@@ -46,7 +46,7 @@ public class DBContext {
                 } else {
                     System.out.println("Kết nối tới database OLTS bị đóng.");
                 }
-            } catch (Exception e) {
+            } catch (SQLException e) {
                 System.out.println("Lỗi kiểm tra kết nối: " + e.getMessage());
             }
         } else {
